@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(../assets/static/Rubik-Regular.ttf);
+}
+
+body {
+    background-color: #0E1323;
+    font-family: Rubik;
+}
+
+.grid-display {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10rem 8rem 0 8rem;
+    gap: 2rem;
+}
+
+.personal {
+    height: 518px;
+    width: 255px;
+    background-color: #1C204B;
+    border-radius: 5%;
+}
+
+.personal p {
+    color: #7078C9;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 1rem 0 0 2rem;
+}
+
+.personal-hero {
+    height: 354px;
+    width: 255px;
+    background-color: #5747EA;
+    border-radius: 5%;
+}
+
+.personal-hero p {
+    font-weight: normal;
+    font-size: 15px;
+    color: #BBC0FF;
+    padding-left: 2rem;
+}
+
+.personal-hero h2 {
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+    padding-left: 2rem;
+}
+
+.jeremy {
+    width: 78px;
+    height: 78px;
+    /* border: 5px solid white; */
+    padding: 2rem;
+}
+
+.work {
+    height: 244px;
+    width: 255px;
+    background-color: #FF8B64;
+    border-radius: 5%;
+    display: flex;
+    align-items: end;
+}
+
+.work svg {
+    
+}
+
+.work-hero {
+    height: 199px;
+    width: 255px;
+    background-color: #1C204B;
+    border-radius: 5%;
+    display: flex;
+    justify-content: end;
+}
+
+/* Responsiveness */
+
+@media (max-width: 375px){
+
+}
