@@ -17,7 +17,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 10rem 8rem 0 8rem;
-    gap: 2rem;
+    /* gap: 1rem; */
 }
 
 .personal {
@@ -68,21 +68,151 @@ body {
     background-color: #FF8B64;
     border-radius: 5%;
     display: flex;
-    align-items: end;
-}
-
-.work svg {
-    
+    justify-content: flex-end;
 }
 
 .work-hero {
+    margin-top: 3rem;
     height: 199px;
     width: 255px;
     background-color: #1C204B;
     border-radius: 5%;
+    position: absolute;
+}
+
+.work svg {
+    padding-right: 1rem;
+}
+
+.play svg {
+    padding-right: 1rem;
+}
+
+.study svg {
+    padding-right: 1rem;
+}
+
+.exercise svg {
+    padding-right: 1rem;
+}
+
+.social svg {
+    padding-right: 1rem;
+}
+
+.self-care svg {
+    padding-right: 1rem;
+}
+
+.content {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 2rem;
+}
+
+h3 {
+    color: white;
+    font-weight: medium;
+}
+
+.content svg {
+    margin-top: 10px;
+    color: #BBC0FF;
+}
+
+.exercise {
+    height: 244px;
+    width: 255px;
+    border-radius: 5%;
+    background-color: #4BCF82;
+    margin-top: 2rem;
     display: flex;
     justify-content: end;
 }
+
+.exercise-hero {
+    margin-top: 3rem;
+    height: 199px;
+    width: 255px;
+    background-color: #1C204B;
+    border-radius: 5%;
+    position: absolute;
+}
+
+.play {
+    height: 244px;
+    width: 255px;
+    border-radius: 5%;
+    background-color: #55C2E6;
+    display: flex;
+    justify-content: end;
+}
+
+.play-hero {
+    margin-top: 3rem;
+    height: 199px;
+    width: 255px;
+    background-color: #1C204B;
+    border-radius: 5%;
+    position: absolute;
+}
+
+.social {
+    height: 244px;
+    width: 255px;
+    border-radius: 5%;
+    background-color: #7335D2;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.social-hero {
+    margin-top: 3rem;
+    height: 199px;
+    width: 255px;
+    background-color: #1C204B;
+    border-radius: 5%;
+    position: absolute;
+}
+
+.study {
+    height: 244px;
+    width: 255px;
+    border-radius: 5%;
+    background-color: #FF5E7D;
+    display: flex;
+    justify-content: end;
+}
+
+.study-hero {
+    margin-top: 3rem;
+    height: 199px;
+    width: 255px;
+    background-color: #1C204B;
+    border-radius: 5%;
+    position: absolute;
+}
+
+.self-care {
+    height: 244px;
+    width: 255px;
+    border-radius: 5%;
+    background-color: #F1C75B;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: end;
+}
+
+.self-care-hero {
+    margin-top: 3rem;
+    height: 199px;
+    width: 255px;
+    background-color: #1C204B;
+    border-radius: 5%;
+    position: absolute;
+}
+
 
 /* Responsiveness */
 
