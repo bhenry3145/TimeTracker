@@ -156,6 +156,21 @@ body {
     padding: 2rem;
 }
 
+.changing-content {
+    padding-left: 2rem;
+}
+
+.changing-content h1 {
+    font-size: 56px;
+    font-weight: lighter;
+    color: white;
+}
+
+.changing-content p {
+    font-size: 15px;
+    color: #BBC0FF;
+}
+
 h3 {
     color: white;
     font-weight: medium;
