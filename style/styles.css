@@ -15,8 +15,8 @@ body {
 
 .grid-display {
     display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    /* grid-template-rows: auto auto; */
     margin: 10rem 8rem 0 8rem;
 }
 
@@ -58,8 +58,9 @@ body {
 .jeremy {
     width: 78px;
     height: 78px;
-    /* border: 5px solid white; */
-    padding: 2rem;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 2rem;
 }
 
 .work {
