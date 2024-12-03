@@ -349,6 +349,29 @@ h3 {
         grid-column: 1;
     }
 
+    .content {
+        padding: 2rem 0 0 2rem;
+    }
+
+    .changing-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .changing-content h1 {
+        font-size: 32px;
+        font-weight: lighter;
+        color: white;
+        padding-top: 5px;
+    }
+    
+    .changing-content p {
+        font-size: 15px;
+        color: #BBC0FF;
+        margin: 1rem 1rem 0 1rem;
+    }
+
     .personal {
         height: 203px;
         width: 327px;
