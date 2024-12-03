@@ -301,6 +301,11 @@ h3 {
     cursor: pointer;
 }
 
+.ellipis:hover {
+    filter: brightness(5);
+    cursor: pointer;
+}
+
 
 /* Responsiveness */
 
