@@ -15,8 +15,8 @@ body {
 
 .grid-display {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
     margin: 10rem 8rem 0 8rem;
 }
 
