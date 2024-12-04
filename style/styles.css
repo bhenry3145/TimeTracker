@@ -129,10 +129,6 @@ body {
     cursor: pointer;
 }
 
-.work svg {
-    padding-right: 1rem;
-}
-
 .worksvg {
     position: absolute;
     top: -4%;
@@ -156,26 +152,6 @@ body {
 .selfcaresvg {
     position: absolute;
     top: -4%;
-}
-
-.play svg {
-    padding-right: 1rem;
-}
-
-.study svg {
-    padding-right: 1rem;
-}
-
-.exercise svg {
-    padding-right: 1rem;
-}
-
-.social svg {
-    padding-right: 1rem;
-}
-
-.self-care svg {
-    padding-right: 1rem;
 }
 
 .overflow {
