@@ -336,8 +336,12 @@ h3 {
     cursor: pointer;
 }
 
-.ellipis:hover {
-    filter: brightness(5);
+.ellipses {
+    fill: #BBC0FF;
+}
+
+.ellipses:hover {
+    fill: white;
     cursor: pointer;
 }
 
