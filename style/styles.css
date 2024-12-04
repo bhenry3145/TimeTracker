@@ -391,6 +391,30 @@ h3 {
         margin: 1rem 1rem 0 1rem;
     }
 
+    .work svg {
+        padding-right: 1rem;
+    }
+    
+    .play svg {
+        padding-right: 1rem;
+    }
+    
+    .study svg {
+        padding-right: 1rem;
+    }
+    
+    .exercise svg {
+        padding-right: 1rem;
+    }
+    
+    .social svg {
+        padding-right: 1rem;
+    }
+    
+    .self-care svg {
+        padding-right: 1rem;
+    }
+
     .personal {
         height: 203px;
         width: 327px;
@@ -563,6 +587,30 @@ h3 {
     .div-item:nth-child(7) {
         grid-row: 7;
         grid-column: 1;
+    }
+
+    .work svg {
+        padding-right: 1rem;
+    }
+    
+    .play svg {
+        padding-right: 1rem;
+    }
+    
+    .study svg {
+        padding-right: 1rem;
+    }
+    
+    .exercise svg {
+        padding-right: 1rem;
+    }
+    
+    .social svg {
+        padding-right: 1rem;
+    }
+    
+    .self-care svg {
+        padding-right: 1rem;
     }
 
     .content {
