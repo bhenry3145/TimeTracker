@@ -54,7 +54,7 @@ body {
 }
 
 .personal {
-    height: 548px;
+    height: 518px;
     width: 255px;
     background-color: #1C204B;
     border-radius: 5%;
@@ -197,7 +197,6 @@ h3 {
     width: 255px;
     border-radius: 5%;
     background-color: #4BCF82;
-    margin-top: 2rem;
     display: flex;
     justify-content: end;
 }
@@ -246,7 +245,6 @@ h3 {
     border-radius: 5%;
     position: relative;
     background-color: #7335D2;
-    margin-top: 2rem;
     display: flex;
     justify-content: end;
 }
@@ -295,7 +293,6 @@ h3 {
     border-radius: 5%;
     position: relative;
     background-color: #F1C75B;
-    margin-top: 2rem;
     display: flex;
     justify-content: end;
 }
@@ -333,6 +330,7 @@ h3 {
         grid-template-columns: auto auto;
         grid-template-rows: repeat(4, auto);
         margin: 2rem 1rem 0 1rem;
+        justify-content: center;
     }
     
     .div-item:nth-child(1) {
@@ -550,10 +548,18 @@ h3 {
         margin: 25px;
     }
 
+    .mobile-center {
+        display: flex; 
+        justify-content: center;
+    }
+
     .grid-display {
+        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(7, auto);
+        gap: 1.5rem;
         margin: 0;
+        justify-content: center;
     }
 
     .div-item:nth-child(1) {
@@ -694,7 +700,6 @@ h3 {
     .work {
         width: 327px;
         height: 160px;
-        margin-top: 2rem;
     }
 
     .work-hero {
@@ -705,18 +710,16 @@ h3 {
     .exercise {
         width: 327px;
         height: 160px;
-        margin-top: 3rem;
     }
 
     .exercise-hero {
         width: 327px;
-        height: 122px;
+        height: 112px;
     }
 
     .play {
         width: 327px;
         height: 160px;
-        margin-top: 3rem;
     }
 
     .play-hero {
@@ -727,7 +730,6 @@ h3 {
     .social {
         width: 327px;
         height: 160px;
-        margin-top: 3rem;
     }
 
     .social-hero {
@@ -738,7 +740,6 @@ h3 {
     .study {
         width: 327px;
         height: 160px;
-        margin-top: 3rem;
     }
 
     .study-hero {
@@ -750,7 +751,6 @@ h3 {
         width: 327px;
         height: 160px;
         margin-bottom: 2rem;
-        margin-top: 3rem;
     }
 
     .self-care-hero {
