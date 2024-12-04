@@ -18,6 +18,8 @@ body {
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto;
     margin: 10rem 8rem 0 8rem;
+    gap: 1.5rem;
+    justify-content: center;
 }
 
 .div-item:nth-child(1) {
@@ -52,7 +54,7 @@ body {
 }
 
 .personal {
-    height: 518px;
+    height: 548px;
     width: 255px;
     background-color: #1C204B;
     border-radius: 5%;
@@ -417,14 +419,14 @@ h3 {
 
     .personal {
         height: 203px;
-        width: 327px;
+        width: 654px;
         border-radius: 5%;
         margin-top: 2rem;
     }
 
     .personal-hero {
         height: 133px;
-        width: 327px;
+        width: 654px;
         border-radius: 5%;
         display: flex;
         flex-direction: row;
@@ -482,7 +484,7 @@ h3 {
     .exercise {
         width: 327px;
         height: 160px;
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     .exercise-hero {
