@@ -109,6 +109,7 @@ body {
     height: 244px;
     width: 255px;
     background-color: #FF8B64;
+    position: relative;
     border-radius: 5%;
     display: flex;
     justify-content: flex-end;
@@ -132,6 +133,31 @@ body {
     padding-right: 1rem;
 }
 
+.worksvg {
+    position: absolute;
+    top: -4%;
+}
+
+.playsvg {
+    position: absolute;
+    top: -4%;
+}
+
+.studysvg {
+    position: absolute;
+    top: -4%;
+}
+
+.socialsvg {
+    position: absolute;
+    top: -4%;
+}
+
+.selfcaresvg {
+    position: absolute;
+    top: -4%;
+}
+
 .play svg {
     padding-right: 1rem;
 }
@@ -152,10 +178,14 @@ body {
     padding-right: 1rem;
 }
 
+.overflow {
+    overflow: hidden;
+}
+
 .content {
     display: flex; 
     justify-content: space-between; 
-    padding: 2rem;
+    padding: 2rem 2rem 1rem 2rem;
 }
 
 .changing-content {
@@ -171,6 +201,7 @@ body {
 .changing-content p {
     font-size: 15px;
     color: #BBC0FF;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -210,6 +241,7 @@ h3 {
 .play {
     height: 244px;
     width: 255px;
+    position: relative;
     border-radius: 5%;
     background-color: #55C2E6;
     display: flex;
@@ -234,6 +266,7 @@ h3 {
     height: 244px;
     width: 255px;
     border-radius: 5%;
+    position: relative;
     background-color: #7335D2;
     margin-top: 2rem;
     display: flex;
@@ -258,6 +291,7 @@ h3 {
     height: 244px;
     width: 255px;
     border-radius: 5%;
+    position: relative;
     background-color: #FF5E7D;
     display: flex;
     justify-content: end;
@@ -281,6 +315,7 @@ h3 {
     height: 244px;
     width: 255px;
     border-radius: 5%;
+    position: relative;
     background-color: #F1C75B;
     margin-top: 2rem;
     display: flex;
