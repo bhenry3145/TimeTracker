@@ -1,4 +1,5 @@
 # Frontend Mentor - Time tracking dashboard
+SCROLL DOWN FOR PEER REVIEW
 
 ![Design preview for the Time tracking dashboard coding challenge](./design/desktop-preview.jpg)
 
