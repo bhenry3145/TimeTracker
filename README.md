@@ -108,4 +108,5 @@ Create web representation of Prototype provided
 Responsives for Desktop and Mobile Version via figma 
 Pull data in from the local JSON file
 Do not Hard Code Data on the HTML side  
-Peer Review: 
+Peer Review: Bronel Lazar
+Reviewer Notes: The site looks great, everything is pretty accurate to the figma, none of the data is hardcoded in the html side. and the site is responsive on tablet and mobile. Just a minor issue is that on desktop, the Daily, weekly, and monthly buttons dont stay highlighted after being selected but on mobile and tablet they get the highlight. Also not sure how it is on your screen but on my screen the cards arent positioned at the center of the screen, there's a lot of space between the bottom of the page and the actual content as compared to the the space between them at the top of the page
