@@ -138,26 +138,35 @@ body {
 .worksvg {
     position: absolute;
     top: -4%;
+    right: 5%;
 }
 
 .playsvg {
     position: absolute;
     top: -4%;
+    right: 5%;
 }
 
 .studysvg {
     position: absolute;
     top: -4%;
+    right: 5%;
 }
 
 .socialsvg {
     position: absolute;
     top: -4%;
+    right: 5%;
 }
 
 .selfcaresvg {
     position: absolute;
     top: -4%;
+    right: 5%;
+}
+
+.exercisesvg {
+    padding-right: 1rem;
 }
 
 .overflow {
