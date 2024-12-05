@@ -417,14 +417,14 @@ h3 {
 
     .personal {
         height: 203px;
-        width: 654px;
+        width: 674px;
         border-radius: 5%;
         margin-top: 2rem;
     }
 
     .personal-hero {
         height: 133px;
-        width: 654px;
+        width: 674px;
         border-radius: 5%;
         display: flex;
         flex-direction: row;
