@@ -13,6 +13,10 @@ body {
     font-family: Rubik;
 }
 
+.white-text {
+    color: white !important;
+}
+
 .grid-display {
     display: grid;
     grid-template-columns: auto auto auto auto;

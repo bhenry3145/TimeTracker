@@ -15,6 +15,24 @@ let lastStudy = document.getElementById('lastStudy');
 let selfCareTime = document.getElementById('selfCareTime');
 let lastSelfCare = document.getElementById('lastSelfCare');
 
+daily.addEventListener('click', () => {
+    daily.classList.add('white-text');
+    weekly.classList.remove('white-text');
+    monthly.classList.remove('white-text');
+})
+
+weekly.addEventListener('click', () => {
+    daily.classList.remove('white-text');
+    weekly.classList.add('white-text');
+    monthly.classList.remove('white-text');
+})
+
+monthly.addEventListener('click', () => {
+    daily.classList.remove('white-text');
+    weekly.classList.remove('white-text');
+    monthly.classList.add('white-text');
+})
+
 function getAllData(){
     return fetch("../data.json")
     .then (response => response.json())
