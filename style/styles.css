@@ -635,20 +635,21 @@ h3 {
     }
 
     .content {
-        padding: 2rem 0 0 2rem;
+        padding: 1.5rem 0 10px 1.5rem;
     }
 
     .changing-content {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        padding-left: 1.5rem;
+        padding-bottom: 1rem;
     }
 
     .changing-content h1 {
         font-size: 32px;
         font-weight: lighter;
         color: white;
-        padding-top: 5px;
     }
     
     .changing-content p {
