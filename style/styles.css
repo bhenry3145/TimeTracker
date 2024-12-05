@@ -771,4 +771,38 @@ h3 {
         height: 122px;
     }
 
+    .worksvg {
+        position: absolute;
+        top: -4%;
+        right: 1%;
+    }
+    
+    .playsvg {
+        position: absolute;
+        top: -4%;
+        right: 1%;
+    }
+    
+    .studysvg {
+        position: absolute;
+        top: -4%;
+        right: 1%;
+    }
+    
+    .socialsvg {
+        position: absolute;
+        top: -4%;
+        right: 1%;
+    }
+    
+    .selfcaresvg {
+        position: absolute;
+        top: -4%;
+        right: 1%;
+    }
+    
+    .exercisesvg {
+        padding-right: 1rem;
+    }
+
 }
