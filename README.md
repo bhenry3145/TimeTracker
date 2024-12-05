@@ -100,7 +100,7 @@ This challenge is completely free. Please share it with anyone who will find it 
 **Have fun building!** 🚀
 
 Bowen Henry
-12/2/2024
+12/5/2024
 In this Challenge you are to recreate the prototype from the Figma provided
 
 Requirements
@@ -110,3 +110,5 @@ Pull data in from the local JSON file
 Do not Hard Code Data on the HTML side  
 Peer Review: Bronel Lazar
 Reviewer Notes: The site looks great, everything is pretty accurate to the figma, none of the data is hardcoded in the html side. and the site is responsive on tablet and mobile. Just a minor issue is that on desktop, the Daily, weekly, and monthly buttons dont stay highlighted after being selected but on mobile and tablet they get the highlight. Also not sure how it is on your screen but on my screen the cards arent positioned at the center of the screen, there's a lot of space between the bottom of the page and the actual content as compared to the the space between them at the top of the page
+
+Update: I fixed the problem with the buttons not staying highlighted with an addEventListener.
